@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import { ChakraProvider, Grid, GridItem } from '@chakra-ui/react';
 import { Heading } from '@chakra-ui/react';
@@ -7,47 +7,29 @@ import { Textarea } from '@chakra-ui/react';
 import { Flex, Spacer } from '@chakra-ui/react';
 import { Button, ButtonGroup } from '@chakra-ui/react';
 
-import cbor from 'cbor' 
-import fs from 'fs'
-
-function App() {
-const Buttonclick=()=>{
-console.log('Kasun M'); 
-  const d = new cbor.Decoder()
-d.on('data', (obj:any) => {
-  console.log(obj)
-})
-
-const s = fs.createReadStream('foo')
-s.pipe(d)
-
-//const d2 = new cbor.Decoder({input: '00', encoding: 'hex'})
-d.on('data', (obj:any) => {
-  console.log(obj)
-})
-}
+function App () {
   return (
     <ChakraProvider>
-  <Heading color={"Blue"} >
-CBOR ENcoding System 
+      <Heading color={"Blue"} >
+        CBOR ENcoding System
 
-  </Heading>
+      </Heading>
 
-<h1>Enter Text Below </h1>
-  <h1> Diagnostic</h1>
-  <Grid templateColumns='repeat(5, 1fr)' gap={4}>
-  <GridItem colSpan={2} h='10' >
-  <Button colorScheme='blue'>Open Text</Button>
+      <h1>Enter Text Below </h1>
+      <h1> Diagnostic</h1>
+      <Grid templateColumns='repeat(5, 1fr)' gap={4}>
+        <GridItem colSpan={2} h='10' >
+          <Button colorScheme='blue'>Open Text</Button>
 
-<Textarea height={500}  placeholder='Test'   />
-  </GridItem>
-  <GridItem   colSpan={2}  h='10' >
+          <Textarea height={500} placeholder='Test' />
+        </GridItem>
+        <GridItem colSpan={2} h='10' >
 
-  <Button colorScheme='blue'>Open Text</Button>
-  <Textarea height={500}    placeholder='Test2'   />
+          <Button colorScheme='blue'>Open Text</Button>
+          <Textarea height={500} placeholder='Test2' />
 
-  </GridItem>
-</Grid>
+        </GridItem>
+      </Grid>
 
     </ChakraProvider>
   );
