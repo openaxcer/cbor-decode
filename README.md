@@ -8,8 +8,10 @@
   Kasun Maduranga 
 </h1>
 
-Clone the repository
-Go to project directory 
+<ul type="square"> 
+  <li>Clone the repository</li>
+  
+  <li>Go to project directory</li> 
 npm installation 
 npm run start(Gatsby develop)
 
