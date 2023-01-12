@@ -1,27 +1,36 @@
 {
-  "name": "cbor-decode",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon index.js"
+    "deploy":" gatsby build --prefix-paths && gh-pages -d public",
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@chakra-ui/gatsby-plugin": "^3.1.1",
+    "@chakra-ui/react": "^2.4.6",
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "framer-motion": "^8.4.0",
+    "gatsby": "^5.3.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kasunmadu12345/cbor-decode.git"
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "bugs": {
-    "url": "https://github.com/kasunmadu12345/cbor-decode/issues"
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
-  "homepage": "https://github.com/kasunmadu12345/cbor-decode#readme",
-  "dependencies": {
-    "body-parser": "^1.20.1",
-    "cbor": "^8.1.0",
-    "express": "^4.18.2",
-    "nodemon": "^2.0.20"
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
   }
 }
