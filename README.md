@@ -5,15 +5,16 @@
   </a>
 </p>
 <h1 align="center">
-  Kasun Maduranga 
+ CBOR ENcoding System 
+  Read me first 
 </h1>
 
 <ul type="square"> 
   <li>Clone the repository</li>
   
   <li>Go to project directory</li> 
-npm installation 
-npm run start(Gatsby develop)
+  <li>npm installation</li> 
+<li>npm run start(Gatsby develop)</li>
 
 
 _Have another more specific idea? You may want to check out our vibrant collection of [official and community-created starters](https://www.gatsbyjs.com/docs/gatsby-starters/)._
