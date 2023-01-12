@@ -9,6 +9,6 @@
  */
 module.exports = {
   plugins: [],
-  pathPrefix: "/cborgatsby",
+  pathPrefix: "/cbor-decode",
 }
 
