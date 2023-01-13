@@ -6,10 +6,17 @@
 </p>
 <h1 align="center">
  CBOR ENcoding System <br>
-   Read me first 
+
 </h1>
 
+People don't think about it as an encoding or decoding process, but human communication begins when a sender formulates (encodes) a message. They choose the message they will convey and a communication channel. People do this every day with little thought to the encoding process.
+
+The receiver must make sense of (decode) the message by deducing the meaning of words and phrases to interpret the message correctly. They then can provide feedback to the sender.
+
 <ul type="square"> 
+  
+  
+  
   <li>Clone the repository</li>
   
   <li>Go to project directory</li> 
