@@ -1,6 +1,6 @@
 var plugins = [{
       name: 'partytown',
-      plugin: require('C:/Users/Kasun/Desktop/New Job/km/myapp/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
+      plugin: require('C:/Users/Kasun/Desktop/New Job/Kasun Assignment/cbor-decode/node_modules/gatsby/dist/internal-plugins/partytown/gatsby-ssr.js'),
       options: {"plugins":[]},
     }]
 /* global plugins */
