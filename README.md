@@ -14,7 +14,7 @@ People don't think about it as an encoding or decoding process, but human commun
 The receiver must make sense of (decode) the message by deducing the meaning of words and phrases to interpret the message correctly. They then can provide feedback to the sender.
 
 <ul type="square"> 
-  
+  This is path for you can dowload this code 
   
   
   <li>Clone the repository</li>
